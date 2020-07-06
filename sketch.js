@@ -263,7 +263,7 @@ function spawnCoins(){
 }
 
 async function getTimeBackground(){
-  var time = await fetch("http://worldtimeapi.org/api/timezone/Asia/Kolkata");
+  var time = await fetch("https://worldtimeapi.org/api/timezone/Asia/Kolkata");
   var timeJSON = await time.json();
 
   var datetime = timeJSON.datetime;
